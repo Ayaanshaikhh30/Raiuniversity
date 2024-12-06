@@ -1,0 +1,53 @@
+/* Make sure the body takes up the full height of the screen */
+body {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+    background-color: #f4f4f4; /* Background color */
+}
+
+/* Style for the container that holds the h1 */
+.centered-container {
+    text-align: center; /* Center text */
+    border: 3px solid #3498db; /* Border with color */
+    padding: 20px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    cursor: pointer;
+    width: 80%;
+}
+
+/* Style for the h1 text */
+h1,P {
+    color: black; /* Text color */
+    font-size: 36px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    cursor:pointer;
+}
+
+h1:hover {
+    color: blue; /* Change text color on hover */
+    transform: scale(1.1); /* Scale the text to 110% on hover */
+    cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+}
+
+p:hover {
+    color: purple; /* Change text color to yellow on hover */
+    text-decoration: underline; /* Add underline on hover */
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+
+/* LOGO */
+.logo-title {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Horizontally align items */
+}
+
+.logo {
+    width: 79px;
+    height: 95px;
+    margin-right: 20px; /* Space between logo and text */
+}
